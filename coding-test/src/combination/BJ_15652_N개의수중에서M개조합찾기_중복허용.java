@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class BJ_15650_N개의수중에서M개조합찾기_중복허용 {
+public class BJ_15652_N개의수중에서M개조합찾기_중복허용 {
     static int N;
     static int M;
     static int[] mark;

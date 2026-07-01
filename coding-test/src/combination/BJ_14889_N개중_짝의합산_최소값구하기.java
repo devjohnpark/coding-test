@@ -3,6 +3,7 @@ package combination;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.HashSet;
 import java.util.StringTokenizer;
 
 public class BJ_14889_N개중_짝의합산_최소값구하기 {
@@ -44,6 +45,10 @@ public class BJ_14889_N개중_짝의합산_최소값구하기 {
                     if (!team[j] && !team[i]) {
                         blue += map[i][j] + map[j][i];
                     }
+                }
+                HashSet<String> set = new HashSet<String>();
+                for (String str: set) {
+
                 }
             }
             min = Math.min(min, Math.abs(red - blue));
